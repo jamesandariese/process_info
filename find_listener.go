@@ -1,4 +1,4 @@
-package main
+package process_info
 
 import (
 	"bufio"
@@ -127,7 +127,7 @@ func FindPidListeningOnPort(port uint16, inaddranyOnly bool) (pid uint32, err er
 	pid, err = findPidListeningOnPortWrap(port, false, inaddranyOnly)
 	return
 }
-
+/*
 func main() {
 	//for i := 1; i <= 80; i++ {
 	{
@@ -138,3 +138,4 @@ func main() {
 		}
 	}
 }
+*/
